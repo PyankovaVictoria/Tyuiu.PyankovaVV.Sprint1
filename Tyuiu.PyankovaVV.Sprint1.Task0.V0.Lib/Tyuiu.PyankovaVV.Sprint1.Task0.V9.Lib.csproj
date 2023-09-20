@@ -42,9 +42,6 @@
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="tyuiu_cources_programming_interfaces">
-      <HintPath>..\..\..\..\Downloads\tyuiu_cources_programming_interfaces.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataService.cs" />
