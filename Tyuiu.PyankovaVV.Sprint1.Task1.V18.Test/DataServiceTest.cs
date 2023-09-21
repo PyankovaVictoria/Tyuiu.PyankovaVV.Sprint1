@@ -11,7 +11,7 @@ namespace Tyuiu.PyankovaVV.Sprint1.Task1.V18.Test
         [TestMethod]
         public void ValidExpression()
         {
-            DataServiceTest ds = new DataServiceTest();
+            DataService ds = new DataService();
             double x = 2.0;
             double y = 3.0;
             var res = ds.Calculate(x, y);
