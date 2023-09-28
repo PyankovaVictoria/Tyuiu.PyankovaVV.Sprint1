@@ -34,6 +34,10 @@ namespace Tyuiu.PyankovaVV.Sprint1.Task6.V2
             Console.WriteLine("Введите текст:");
             text = Console.ReadLine();
 
+            Console.WriteLine("**************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
+            Console.WriteLine("**************************************************************************");
+
             Console.WriteLine(ds.CheckHello(text));
             Console.ReadKey();
         }
